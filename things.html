@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Things to do</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+  <link rel="stylesheet" href="css/uikit.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Corben&family=Oswald:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <script src="js/uikit.js"></script>
+  <script src="js/uikit-icons.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+  <div data-role="page" id="things">
+    <div data-role="header">
+      <div class="top-wrap uk-position-relative">
+        <div class="nav"
+          data-uk-sticky="cls-active:uk-background-muted uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
+          <div class="uk-container">
+            <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+              <div class="uk-navbar-left">
+                <div class="uk-navbar-item uk-padding-remove-horizontal">
+                  <a class="uk-logo uk-margin-left" title="Logo" href="index.html" rel="external"> <img
+                      src="img/Frame.png" alt="Logo" width="100px" /></a>
+                </div>
+              </div>
+              <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav uk-visible@s">
+                  <li>
+                    <a href="index.html" rel="external"> Home </a>
+                  </li>
+                  <li>
+                    <a href="about.html" rel="external"> About </a>
+                  </li>
+                  <li class="uk-active">
+                    <a href="things.html" rel="external"> Things to do </a>
+                  </li>
+                  <li>
+                    <a href="eat.html" rel="external"> Eat&Drink </a>
+                  </li>
+                  <li>
+                    <a href="sleep.html" rel="external"> Where to sleep </a>
+                  </li>
+                  <li>
+                    <a href="currency.html" rel="external"> Currency </a>
+                  </li>
+                  <li>
+                    <a href="map.html" rel="external"> Map </a>
+                  </li>
+                  <li>
+                    <a href="weather.html" rel="external"> Weather </a>
+                  </li>
+                  <li>
+                    <a href="contact.html" rel="external">Contact</a>
+                  </li>
+                </ul>
+                <a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon
+                  href="#offcanvas-nav"></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-role="main">
+      <div class="uk-grid-small uk-child-width-expand@s" uk-grid>
+
+        <a href="#experiences">
+          <div class="uk-light uk-background-cover uk-height-medium" style="background-image: url(img/exp.jpg)">
+            <div class="uk-container uk-text-small uk-flex uk-flex-bottom uk-height-1-1">
+              <div>
+                <h3 class="uk-text-bold uk-margin-remove">Experiences </h3>
+                <div>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#arts">
+          <div class="uk-light uk-background-cover uk-height-medium" style="background-image: url(img/artcult.jpg)">
+            <div class="uk-container uk-text-small uk-flex uk-flex-bottom uk-height-1-1">
+              <div>
+                <h3 class="uk-text-bold uk-margin-remove">Arts & Culture</h3>
+                <div>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#shopping">
+          <div class="uk-light uk-background-cover uk-height-medium" style="background-image: url(img/shopp.jpg)">
+            <div class="uk-container uk-text-small uk-flex uk-flex-bottom uk-height-1-1">
+              <div>
+                <h3 class="uk-text-bold uk-margin-remove">Shopping</h3>
+                <div>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="uk-grid-small uk-child-width-expand@s" uk-grid>
+
+        <a href="#spa">
+          <div class="uk-light uk-background-cover uk-height-medium" style="background-image: url(img/spa.jpg)">
+            <div class="uk-container uk-text-small uk-flex uk-flex-bottom uk-height-1-1">
+              <div>
+                <h3 class="uk-text-bold uk-margin-remove">Spas</h3>
+                <div>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#sights">
+          <div class="uk-light uk-background-cover uk-height-medium" style="background-image: url(img/sights.jpg)">
+            <div class="uk-container uk-text-small uk-flex uk-flex-bottom uk-height-1-1">
+              <div>
+                <h3 class="uk-text-bold uk-margin-remove">Sights & Attractions</h3>
+                <div>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#30things">
+          <div class="uk-light uk-background-cover uk-height-medium" style="background-image: url(img/99things.jpg)">
+            <div class="uk-container uk-text-small uk-flex uk-flex-bottom uk-height-1-1">
+              <div>
+                <h3 class="uk-text-bold uk-margin-remove">30 things to do</h3>
+                <div>
+                  <p> </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div data-role="footer">
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <!-- Experiences  !-->
+
+  <div data-role="page" id="experiences">
+    <div data-role="header">
+      <div class="top-wrap uk-position-relative">
+        <div class="nav"
+          data-uk-sticky="cls-active:uk-background-muted uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
+          <div class="uk-container">
+            <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+              <div class="uk-navbar-left">
+                <div class="uk-navbar-item uk-padding-remove-horizontal">
+                  <a class="uk-logo uk-margin-left" title="Logo" href="index.html" rel="external"> <img
+                      src="img/Frame.png" alt="Logo" width="100px" /></a>
+                </div>
+              </div>
+              <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav uk-visible@s">
+                  <li>
+                    <a href="index.html" rel="external"> Home </a>
+                  </li>
+                  <li>
+                    <a href="about.html" rel="external"> About </a>
+                  </li>
+                  <li class="uk-active">
+                    <a href="things.html" rel="external"> Things to do </a>
+                  </li>
+                  <li>
+                    <a href="eat.html" rel="external"> Eat&Drink </a>
+                  </li>
+                  <li>
+                    <a href="sleep.html" rel="external"> Where to sleep </a>
+                  </li>
+                  <li>
+                    <a href="currency.html" rel="external"> Currency </a>
+                  </li>
+                  <li>
+                    <a href="map.html" rel="external"> Map </a>
+                  </li>
+                  <li>
+                    <a href="weather.html" rel="external"> Weather </a>
+                  </li>
+                  <li>
+                    <a href="contact.html" rel="external">Contact</a>
+                  </li>
+                </ul>
+                <a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon
+                  href="#offcanvas-nav"></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-role="main">
+      <h1 class="uk-text-center uk-padding-large"> Experiences </h1>
+      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+          <img src="img/expp.jpg" alt="" uk-cover>
+          <canvas width="600" height="400"></canvas>
+        </div>
+        <div>
+          <div class="uk-card-body">
+            <h3 class="uk-card-title">From desert dunes to dancing fountains, take in Dubai's unique experiences.</h3>
+            <p>Why just sightsee when you can live? Dubai is an experiential haven with impressive thrills and memorable
+              surprises at every turn. Start by the sparkling coastline as you try your hand at new watersports and then
+              enjoy an array of activities in the great outdoors of Hatta. Whether you’re looking for family
+              entertainment, exciting foodie events or magical desert fun, it’s time to plan new adventures under the
+              sun.</p>
+          </div>
+        </div>
+      </div>
+      <h3>
+        <center>Top things to try</center>
+      </h3>
+      <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+        <div>
+          <div class="uk-card uk-card-hover uk-card-body">
+            <h3 class="uk-card-title">Nemo WaterSports</h3>
+            <img src="img/nemo.jpg" alt="">
+            <p>Splash into award-winning Dubai experiences.</p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
+            <h3 class="uk-card-title">Deep Dive Dubai</h3>
+            <img src="img/deepdive.jpg" alt="">
+            <p>Plunge into new depths at a record-breaking pool.</p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+            <h3 class="uk-card-title">Aquaventure Waterpark</h3>
+            <img src="img/aqua.jpg" alt="">
+            <p>Unlimited thrills at one of the world's largest waterparks.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Arts  !-->
+
+  <div data-role="page" id="arts">
+    <div data-role="header">
+      <div class="top-wrap uk-position-relative">
+        <div class="nav"
+          data-uk-sticky="cls-active:uk-background-muted uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
+          <div class="uk-container">
+            <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+              <div class="uk-navbar-left">
+                <div class="uk-navbar-item uk-padding-remove-horizontal">
+                  <a class="uk-logo uk-margin-left" title="Logo" href="index.html" rel="external"> <img
+                      src="img/Frame.png" alt="Logo" width="100px" /></a>
+                </div>
+              </div>
+              <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav uk-visible@s">
+                  <li>
+                    <a href="index.html" rel="external"> Home </a>
+                  </li>
+                  <li>
+                    <a href="about.html" rel="external"> About </a>
+                  </li>
+                  <li class="uk-active">
+                    <a href="things.html" rel="external"> Things to do </a>
+                  </li>
+                  <li>
+                    <a href="eat.html" rel="external"> Eat&Drink </a>
+                  </li>
+                  <li>
+                    <a href="sleep.html" rel="external"> Where to sleep </a>
+                  </li>
+                  <li>
+                    <a href="currency.html" rel="external"> Currency </a>
+                  </li>
+                  <li>
+                    <a href="map.html" rel="external"> Map </a>
+                  </li>
+                  <li>
+                    <a href="weather.html" rel="external"> Weather </a>
+                  </li>
+                  <li>
+                    <a href="contact.html" rel="external">Contact</a>
+                  </li>
+                </ul>
+                <a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon
+                  href="#offcanvas-nav"></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-role="main">
+      <h1 class="uk-text-center uk-padding-large"> Arts & Culture </h1>
+      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+          <img src="img/cult.jpg" alt="" uk-cover>
+          <canvas width="600" height="400"></canvas>
+        </div>
+        <div>
+          <div class="uk-card-body">
+            <h3 class="uk-card-title">Explore Dubai's culture through traditional spaces and modern art districts.</h3>
+            <p>Dubai is home to award-winning galleries, culture-fuelled hubs and contemporary street art, which means
+              there are colourful surprises around every corner. There’s a world of creativity to discover. Start your
+              explorations at Al Fahidi Historical Neighbourhood before heading to Dubai Design District, Jameel Arts
+              Centre and beyond. Our city is your canvas.</p>
+          </div>
+        </div>
+      </div>
+      <h3 class="uk-padding-large uk-padding-remove-bottom  uk-padding-remove-top ">
+        <center>A closer look</center>
+      </h3>
+      <p class="uk-padding-large uk-padding-remove-bottom  uk-padding-remove-top ">Turn the pages of history to
+        understand the city's soul, resonating with triumphant
+        seafaring tales, cultural
+        treasures and centuries-old traditions.</p>
+      <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+        <div>
+          <div class="uk-card uk-card-hover uk-card-body">
+            <h3 class="uk-card-title">Traditional Emirati sports</h3>
+            <img src="img/emsp.jpg" alt="">
+            <p>From falconry to camel racing, find out where you can catch the local sporting action in Dubai.</p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
+            <h3 class="uk-card-title">Leading Emirati artists</h3>
+            <img src="img/artists.jpg" alt="">
+            <p>From sculptures to street art, these local artists have an incredibly diverse range of works to admire.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+            <h3 class="uk-card-title">Bedouin life in Dubai</h3>
+            <img src="img/bedouin.jpg" alt="">
+            <p>Who were the Bedouins and how did they survive? Learn all about these desert nomads.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Shopping  !-->
+
+  <div data-role="page" id="shopping">
+    <div data-role="header">
+      <div class="top-wrap uk-position-relative">
+        <div class="nav"
+          data-uk-sticky="cls-active:uk-background-muted uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
+          <div class="uk-container">
+            <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+              <div class="uk-navbar-left">
+                <div class="uk-navbar-item uk-padding-remove-horizontal">
+                  <a class="uk-logo uk-margin-left" title="Logo" href="index.html" rel="external"> <img
+                      src="img/Frame.png" alt="Logo" width="100px" /></a>
+                </div>
+              </div>
+              <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav uk-visible@s">
+                  <li>
+                    <a href="index.html" rel="external"> Home </a>
+                  </li>
+                  <li>
+                    <a href="about.html" rel="external"> About </a>
+                  </li>
+                  <li class="uk-active">
+                    <a href="things.html" rel="external"> Things to do </a>
+                  </li>
+                  <li>
+                    <a href="eat.html" rel="external"> Eat&Drink </a>
+                  </li>
+                  <li>
+                    <a href="sleep.html" rel="external"> Where to sleep </a>
+                  </li>
+                  <li>
+                    <a href="currency.html" rel="external"> Currency </a>
+                  </li>
+                  <li>
+                    <a href="map.html" rel="external"> Map </a>
+                  </li>
+                  <li>
+                    <a href="weather.html" rel="external"> Weather </a>
+                  </li>
+                  <li>
+                    <a href="contact.html" rel="external">Contact</a>
+                  </li>
+                </ul>
+                <a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon
+                  href="#offcanvas-nav"></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-role="main">
+      <h1 class="uk-text-center uk-padding-large"> Shopping </h1>
+      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+          <img src="img/sopp2.jpg" alt="" uk-cover>
+          <canvas width="600" height="400"></canvas>
+        </div>
+        <div>
+          <div class="uk-card-body">
+            <h3 class="uk-card-title">Indulge in retail therapy at high-end shopping malls and charming souks.</h3>
+            <p>Home to the most talked-about shopping malls, artisan markets, al fresco shopping precincts, and
+              traditional souks, you’re sure to find everything you want and more on our shores. And with seasonal sales
+              and massive citywide retail celebrations taking place all through the year, it’s always a good time to go
+              shopping in Dubai.</p>
+          </div>
+        </div>
+      </div>
+      <h3>
+        <center>Top shopping hotspots</center>
+      </h3>
+      <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+        <div>
+          <div class="uk-card uk-card-hover uk-card-body">
+            <h3 class="uk-card-title">Gold Souk</h3>
+            <img src="img/gold.jpg" alt="">
+            <p>Shop for gold ornaments and gemstones in Dubai</p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
+            <h3 class="uk-card-title">Dragon Mart</h3>
+            <img src="img/dragon.jpg" alt="">
+            <p>Explore the gateway for Chinese products in Dubai</p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+            <h3 class="uk-card-title">Amouage</h3>
+            <img src="img/amouage.jpg" alt="">
+            <p>Exclusive, luxury perfumes by a high-end perfumery</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Spas  !-->
+
+  <div data-role="page" id="spa">
+    <div data-role="header">
+      <div class="top-wrap uk-position-relative">
+        <div class="nav"
+          data-uk-sticky="cls-active:uk-background-muted uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
+          <div class="uk-container">
+            <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+              <div class="uk-navbar-left">
+                <div class="uk-navbar-item uk-padding-remove-horizontal">
+                  <a class="uk-logo uk-margin-left" title="Logo" href="index.html" rel="external"> <img
+                      src="img/Frame.png" alt="Logo" width="100px" /></a>
+                </div>
+              </div>
+              <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav uk-visible@s">
+                  <li>
+                    <a href="index.html" rel="external"> Home </a>
+                  </li>
+                  <li>
+                    <a href="about.html" rel="external"> About </a>
+                  </li>
+                  <li class="uk-active">
+                    <a href="things.html" rel="external"> Things to do </a>
+                  </li>
+                  <li>
+                    <a href="eat.html" rel="external"> Eat&Drink </a>
+                  </li>
+                  <li>
+                    <a href="sleep.html" rel="external"> Where to sleep </a>
+                  </li>
+                  <li>
+                    <a href="currency.html" rel="external"> Currency </a>
+                  </li>
+                  <li>
+                    <a href="map.html" rel="external"> Map </a>
+                  </li>
+                  <li>
+                    <a href="weather.html" rel="external"> Weather </a>
+                  </li>
+                  <li>
+                    <a href="contact.html" rel="external">Contact</a>
+                  </li>
+                </ul>
+                <a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon
+                  href="#offcanvas-nav"></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-role="main">
+      <h1 class="uk-text-center uk-padding-large"> Spas </h1>
+      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+          <img src="img/spas.jpg" alt="" uk-cover>
+          <canvas width="600" height="400"></canvas>
+        </div>
+        <div>
+          <div class="uk-card-body">
+            <h3 class="uk-card-title">Relax in style at Dubai's luxury spas and hammams.</h3>
+            <p>There’s a reason why the world comes to unwind in Dubai. There’s an incredible array of spas to choose
+              from, including traditional Arabian havens, five-star venues, and neighbourhood favourites. They all
+              provide great service and value, so you can easily slip into a state of bliss and relaxation while on
+              holiday.</p>
+          </div>
+        </div>
+      </div>
+      <h3>
+        <center>Top relaxation hotspots</center>
+      </h3>
+      <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+        <div>
+          <div class="uk-card uk-card-hover uk-card-body">
+            <h3 class="uk-card-title">SensAsia Urban Spa</h3>
+            <img src="img/sensasia.jpg" alt="">
+            <p>Revel in relaxation with a truly perfect East meets West experience</p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
+            <h3 class="uk-card-title">The Westin Dubai Mina Seyahi</h3>
+            <img src="img/westin.jpg" alt="">
+            <p>A neoclassical-style 5-star beach resort overlooking the Arabian Gulf</p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+            <h3 class="uk-card-title">Spa InterContinental</h3>
+            <img src="img/intercon.jpg" alt="">
+            <p>Arabian-inspired spa with treatments for the whole body</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Sights  !-->
+
+  <div data-role="page" id="sights">
+    <div data-role="header">
+      <div class="top-wrap uk-position-relative">
+        <div class="nav"
+          data-uk-sticky="cls-active:uk-background-muted uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
+          <div class="uk-container">
+            <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+              <div class="uk-navbar-left">
+                <div class="uk-navbar-item uk-padding-remove-horizontal">
+                  <a class="uk-logo uk-margin-left" title="Logo" href="index.html" rel="external"> <img
+                      src="img/Frame.png" alt="Logo" width="100px" /></a>
+                </div>
+              </div>
+              <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav uk-visible@s">
+                  <li>
+                    <a href="index.html" rel="external"> Home </a>
+                  </li>
+                  <li>
+                    <a href="about.html" rel="external"> About </a>
+                  </li>
+                  <li class="uk-active">
+                    <a href="things.html" rel="external"> Things to do </a>
+                  </li>
+                  <li>
+                    <a href="eat.html" rel="external"> Eat&Drink </a>
+                  </li>
+                  <li>
+                    <a href="sleep.html" rel="external"> Where to sleep </a>
+                  </li>
+                  <li>
+                    <a href="currency.html" rel="external"> Currency </a>
+                  </li>
+                  <li>
+                    <a href="map.html" rel="external"> Map </a>
+                  </li>
+                  <li>
+                    <a href="weather.html" rel="external"> Weather </a>
+                  </li>
+                  <li>
+                    <a href="contact.html" rel="external">Contact</a>
+                  </li>
+                </ul>
+                <a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon
+                  href="#offcanvas-nav"></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-role="main">
+      <h1 class="uk-text-center uk-padding-large"> Sights&Attractions </h1>
+      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+          <img src="img/attt.jpg" alt="" uk-cover>
+          <canvas width="600" height="400"></canvas>
+        </div>
+        <div>
+          <div class="uk-card-body">
+            <h3 class="uk-card-title">Discover Dubai's record-breaking attractions and iconic landmarks.</h3>
+            <p>Whether you want to treat the family to non-stop thrills at theme parks and waterparks, admire
+              incomparable views from sky-high venues, spend a day of fun in the desert or simply find the best Dubai
+              attractions in the sunshine, there’s always something spectacular to discover in our city. Be inspired and
+              start planning your perfect Dubai holiday today.</p>
+          </div>
+        </div>
+      </div>
+      <h3>
+        <center>Top hotspots</center>
+      </h3>
+      <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+        <div>
+          <div class="uk-card uk-card-hover uk-card-body">
+            <h3 class="uk-card-title">Museum of the Future</h3>
+            <img src="img/museum.jpg" alt="">
+            <p>Explore next-generation science, technology and innovation</p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
+            <h3 class="uk-card-title">Burj Khalifa</h3>
+            <img src="img/burj.jpg" alt="">
+            <p>The world's tallest building and one of Dubai's top attractions</p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+            <h3 class="uk-card-title">Sky Views Dubai</h3>
+            <img src="img/sky.jpg" alt="">
+            <p>See the city from an elevated glass slide, bridge or tower-encircling ledge</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 30things  !-->
+
+  <div data-role="page" id="30things">
+    <div data-role="header">
+      <div class="top-wrap uk-position-relative">
+        <div class="nav"
+          data-uk-sticky="cls-active:uk-background-muted uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
+          <div class="uk-container">
+            <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+              <div class="uk-navbar-left">
+                <div class="uk-navbar-item uk-padding-remove-horizontal">
+                  <a class="uk-logo uk-margin-left" title="Logo" href="index.html" rel="external"> <img
+                      src="img/Frame.png" alt="Logo" width="100px" /></a>
+                </div>
+              </div>
+              <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav uk-visible@s">
+                  <li>
+                    <a href="index.html" rel="external"> Home </a>
+                  </li>
+                  <li>
+                    <a href="about.html" rel="external"> About </a>
+                  </li>
+                  <li class="uk-active">
+                    <a href="things.html" rel="external"> Things to do </a>
+                  </li>
+                  <li>
+                    <a href="eat.html" rel="external"> Eat&Drink </a>
+                  </li>
+                  <li>
+                    <a href="sleep.html" rel="external"> Where to sleep </a>
+                  </li>
+                  <li>
+                    <a href="currency.html" rel="external"> Currency </a>
+                  </li>
+                  <li>
+                    <a href="map.html" rel="external"> Map </a>
+                  </li>
+                  <li>
+                    <a href="weather.html" rel="external"> Weather </a>
+                  </li>
+                  <li>
+                    <a href="contact.html" rel="external">Contact</a>
+                  </li>
+                </ul>
+                <a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon
+                  href="#offcanvas-nav"></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-role="main">
+      <h1 class="uk-text-center uk-padding-large"> 30 things to do in Dubai </h1>
+      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+          <div>
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: push">
+
+              <ul class="uk-slideshow-items">
+                <li>
+                  <img src="img/slide1.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                  <img src="img/slide2.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                  <img src="img/slide3.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                  <img src="img/slide4.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                  <img src="img/slide5.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                  <img src="img/slide6.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                  <img src="img/slide7.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                  <img src="img/slide8.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                  <img src="img/slide9.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                  <img src="img/slide10.jpg" alt="" uk-cover>
+                </li>
+              </ul>
+
+              <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                uk-slideshow-item="previous"></a>
+              <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                uk-slideshow-item="next"></a>
+
+            </div>
+
+          </div>
+        </div>
+        <div>
+          <div class="uk-card-body">
+            <h3 class="uk-card-title">The best of Dubai shore to shore</h3>
+            <p>
+              1. Dive in to the not so deep and learn to surf at Laguna Waterpark – home to an epic 180-degree
+              surf-machine and a whole lot of other thrills in between.
+              <br>
+              2. Explore Dubai's azure blue waters by taking a fishing trip out to sea with the experts, like Deep Blue
+              Sea Fishing.
+              <br>
+              3. Tear yourself away from our beachy shores to cross the historic Dubai Creek onboard a traditional
+              wooden abra.
+              <br>
+              4. Gather the family for a chance to walk underwater (figuratively) at Dubai Aquarium's magical tunnel and
+              say hi to the rays.
+              <br>
+              5. Chase the wind and go all out with jetskiing at sea – the team at Seawake are one of the best in the
+              city.
+              <br>
+              6. Sleeping with the fishes takes on a whole new meaning at Atlantis, The Palm's luxe underwater suites.
+              <br>
+              7. Scare-seekers will want to take a 'leap of faith' at Aquaventure Waterpark and plunge through
+              shark-filled waters.
+              <br>
+              8. Getting fit doesn't need to be boring. Slip and slide your way into fun at the AquaFun inflatable
+              waterpark by Jumeirah Beach Residences.
+              <br>
+              9. Escape the bright lights of the city and go kayaking in a shimmering lake nestled amid the
+              mountainscapes of Hatta.
+              <br>
+              10. Take the plunge into the world’s deepest pool and explore depths of up to 60m at Deep Dive Dubai.
+              <br>
+            </p>
+            <img src="img/amir-hanna-efizRZ3AuVk-unsplash.jpg">
+            <p>
+              11. When you'd like to combine a sea and sky experience, hop aboard a seaplane that takes off on water and
+              then rewards you with aerial views of the city.
+              <br>
+              12. As a city with a famed coastline, there's nothing like seeing the sights from the water, especially
+              since water taxis are an official mode of public transportation. Choose the route from Dubai Festival City
+              Mall to Jumeirah to see what we mean.
+              <br>
+              13. Dubai is an excellent place to get a custom suit or bespoke dress. Head to the decades-old tailoring
+              shops in the neighbourhood in Satwa for styles that are a cut above.
+              <br>
+              14. Looking for the perfect fabric? You'll find everything from soft cotton to pure silk at Textile Souk
+              in Bur Dubai where eager owners offer bargain prices the more you order.
+              <br>
+              15. Coffee is the elixir of life for many. If you agree, you'll want to learn all about the wonders of the
+              bean at Dubai's dedicated Coffee Museum.
+              <br>
+              16. The bright lights of the city's malls are irresistible but, if you're looking for special deals on the
+              best designers, make time for a trip to the Dubai Outlet Mall.
+              <br>
+
+              17. A visit to Dubai's atmospheric Gold Souk is a must with storefronts filled with intricate, bejewelled
+              designs that are worth every dirham.
+              <br>
+              18. Explore big name brands and indie boutiques at Souk Madinat Jumeirah – you'll find gifts galore,
+              including custom name pendants and Aladdin-inspired lamps.
+              <br>
+              19. Find the weird and wonderful for sale in Dragon Mart, one of the largest trading centres for Chinese
+              products outside mainland China.
+              <br>
+              20. Every serious shopper's dream come true, there's nothing quite like The Dubai Mall. With over 1,000
+              stores, you're bound to find it all here.
+              <br>
+            </p>
+            <img src="img/slide2.jpg">
+            <p>
+              21. When you want to combine shopping with a bit of sun, head north to La Mer. This outdoor destination is
+              a treat for all ages and presents a curated selection of boutiques.
+              <br>
+              22. Create your own bespoke scent at the Perfume Souk in Dubai and take it home in colourful glass bottles
+              – they make great souvenirs!
+              <br>
+              23. An obvious recommendation – but one that always bears repeating – is taking in the sights from At The
+              Top, Burj Khalifa, the tallest building in the world.
+              <br>
+              24. Whether you want to singalong with A-list stars, watch world-class theatre or catch a comedy
+              performance like no other, there's always something fun on at the Coca-Cola Arena.
+              <br>
+              25. Play spot the turtle at the serene lagoons of Jumeirah Al Naseem hotel – the setting is unique and
+              it's surrounded by a slew of award-winning restaurants.
+              <br>
+              26. Watch the sunrise while horse riding at Al Jiyad Stables. It's a transformative experience and, once
+              you try it, you'll want to book your next ride immediately.
+              <br>
+              27. See the world in a stroll around Global Village. Taking place every year from October to early May,
+              it's an amusement park like no other.
+              <br>
+              28. Take the kids to Dubai Garden Glow, a magical world where glowing sculptures astound and dinosaurs
+              roam free.
+              <br>
+              29. Marvel at the exotic wildlife in The Green Planet's bio-dome. That's right, it's an indoor rainforest
+              in one of the world's most exciting desert cities.
+              <br>
+              30. Walk along Dubai Water Canal. One of the greatest urban transformations in modern time, this historic
+              waterway has effectively made parts of the city into an island.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- OFFCANVAS -->
+  <div id="offcanvas-nav" data-uk-offcanvas="flip: true; overlay: false">
+    <div class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide">
+      <button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close></button>
+      <ul class="uk-nav uk-nav-default">
+        <li>
+          <a href="index.html" rel="external"> <span uk-icon="home"></span> Home </a>
+        </li>
+        <li>
+          <a href="about.html" rel="external"> <span uk-icon="info"></span> About </a>
+        </li>
+        <li class="uk-active">
+          <a href="things.html" rel="external"><span uk-icon="users"></span> Things to do </a>
+        </li>
+        <li>
+          <a href="eat.html" rel="external"> <span uk-icon="heart"></span> Eat&Drink </a>
+        </li>
+        <li>
+          <a href="sleep.html" rel="external"> <span uk-icon="bookmark"></span> Where to sleep </a>
+        </li>
+        <li>
+          <a href="currency.html" rel="external"> <span uk-icon="credit-card"></span> Currency </a>
+        </li>
+        <li>
+          <a href="map.html" rel="external"> <span uk-icon="location"></span> Map </a>
+        </li>
+        <li>
+          <a href="weather.html" rel="external"> <span uk-icon="bolt"></span> Weather </a>
+        </li>
+        <li>
+          <a href="contact.html" rel="external"> <span uk-icon="mail"></span> Contact</a>
+        </li>
+    </div>
+  </div>
+  <!-- /OFFCANVAS -->
+
+</body>
+
+</html>

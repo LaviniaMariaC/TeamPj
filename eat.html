@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Eat</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+  <link rel="stylesheet" href="css/uikit.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Corben&family=Oswald:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <script src="js/uikit.js"></script>
+  <script src="js/uikit-icons.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+  <div data-role="page" id="eat">
+    <div data-role="header">
+      <div class="top-wrap uk-position-relative">
+        <div class="nav"
+          data-uk-sticky="cls-active:uk-background-muted uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
+          <div class="uk-container">
+            <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+              <div class="uk-navbar-left">
+                <div class="uk-navbar-item uk-padding-remove-horizontal">
+                  <a class="uk-logo uk-margin-left" title="Logo" href="index.html" rel="external"> <img
+                      src="img/Frame.png" alt="Logo" width="100px" /></a>
+                </div>
+              </div>
+              <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav uk-visible@s">
+                  <li>
+                    <a href="index.html" rel="external"> Home </a>
+                  </li>
+                  <li>
+                    <a href="about.html" rel="external"> About </a>
+                  </li>
+                  <li>
+                    <a href="things.html" rel="external"> Things to do </a>
+                  </li>
+                  <li class="uk-active">
+                    <a href="eat.html" rel="external"> Eat&Drink </a>
+                  </li>
+                  <li>
+                    <a href="sleep.html" rel="external"> Where to sleep </a>
+                  </li>
+                  <li>
+                    <a href="currency.html" rel="external"> Currency </a>
+                  </li>
+                  <li>
+                    <a href="map.html" rel="external"> Map </a>
+                  </li>
+                  <li>
+                    <a href="weather.html" rel="external"> Weather </a>
+                  </li>
+                  <li><a href="contact.html" rel="external">Contact</a></li>
+                </ul>
+                <a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon
+                  href="#offcanvas-nav"></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-role="main">
+      <div class="uk-grid-small uk-child-width-expand@s" uk-grid>
+
+        <a href="#juns">
+          <div class="uk-light uk-background-cover uk-height-medium" style="background-image: url(img/juns.jpg)">
+            <div class="uk-container uk-text-small uk-flex uk-flex-bottom uk-height-1-1">
+              <div>
+                <h3 class="uk-text-bold uk-margin-remove">Jun's </h3>
+                <div>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#bushra">
+          <div class="uk-light uk-background-cover uk-height-medium" style="background-image: url(img/food2.jpg)">
+            <div class="uk-container uk-text-small uk-flex uk-flex-bottom uk-height-1-1">
+              <div>
+                <h3 class="uk-text-bold uk-margin-remove">Bushra by Buddha-Bar</h3>
+                <div>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#jamies">
+          <div class="uk-light uk-background-cover uk-height-medium" style="background-image: url(img/foodd.jpg)">
+            <div class="uk-container uk-text-small uk-flex uk-flex-bottom uk-height-1-1">
+              <div>
+                <h3 class="uk-text-bold uk-margin-remove">Jamie's Italian</h3>
+                <div>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="uk-grid-small uk-child-width-expand@s" uk-grid>
+
+        <a href="#playa">
+          <div class="uk-light uk-background-cover uk-height-medium" style="background-image: url(img/beach.jpg)">
+            <div class="uk-container uk-text-small uk-flex uk-flex-bottom uk-height-1-1">
+              <div>
+                <h3 class="uk-text-bold uk-margin-remove">Playa Beach Club</h3>
+                <div>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#mayabay">
+          <div class="uk-light uk-background-cover uk-height-medium" style="background-image: url(img/rest.jpg)">
+            <div class="uk-container uk-text-small uk-flex uk-flex-bottom uk-height-1-1">
+              <div>
+                <h3 class="uk-text-bold uk-margin-remove">Mayabay Dubai</h3>
+                <div>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#pods">
+          <div class="uk-light uk-background-cover uk-height-medium" style="background-image: url(img/pods.jpg)">
+            <div class="uk-container uk-text-small uk-flex uk-flex-bottom uk-height-1-1">
+              <div>
+                <h3 class="uk-text-bold uk-margin-remove">The Pods</h3>
+                <div>
+                  <p> </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div data-role="footer">
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+  <!-- jun's  !-->
+
+  <div data-role="page" id="juns">
+    <div data-role="header">
+      <div class="top-wrap uk-position-relative">
+        <div class="nav"
+          data-uk-sticky="cls-active:uk-background-muted uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
+          <div class="uk-container">
+            <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+              <div class="uk-navbar-left">
+                <div class="uk-navbar-item uk-padding-remove-horizontal">
+                  <a class="uk-logo uk-margin-left" title="Logo" href="index.html" rel="external"> <img
+                      src="img/Frame.png" alt="Logo" width="100px" /></a>
+                </div>
+              </div>
+              <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav uk-visible@s">
+                  <li>
+                    <a href="index.html" rel="external"> Home </a>
+                  </li>
+                  <li>
+                    <a href="about.html" rel="external"> About </a>
+                  </li>
+                  <li>
+                    <a href="things.html" rel="external"> Things to do </a>
+                  </li>
+                  <li class="uk-active">
+                    <a href="eat.html" rel="external"> Eat&Drink </a>
+                  </li>
+                  <li>
+                    <a href="sleep.html" rel="external"> Where to sleep </a>
+                  </li>
+                  <li>
+                    <a href="currency.html" rel="external"> Currency </a>
+                  </li>
+                  <li>
+                    <a href="map.html" rel="external"> Map </a>
+                  </li>
+                  <li>
+                    <a href="weather.html" rel="external"> Weather </a>
+                  </li>
+                  <li><a href="contact.html" rel="external">Contact</a></li>
+                </ul>
+                <a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon
+                  href="#offcanvas-nav"></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div data-role="main">
+      <h1 class="uk-text-center uk-padding-large"> Jun's </h1>
+      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+          <img src="img/junsui.jpg" alt="" uk-cover>
+          <canvas width="600" height="400"></canvas>
+        </div>
+        <div>
+          <div class="uk-card-body">
+            <p><span uk-icon="location"></span> <a
+                href="https://www.google.com/maps/place/Jun’s+Dubai/@25.1907792,55.2727722,17z/data=!3m1!4b1!4m5!3m4!1s0x3e5f43beaf999b31:0xe93dd63db1ca5d0c!8m2!3d25.1907792!4d55.2727722">Vida
+                Residences Downtown, Sheikh Mohammed bin Rashid Boulevard, Downtown Dubai</a></p>
+            <p>Drawing on celebrity chef Kelvin Cheung's French training, Canadian roots and Asian heritage, Downtown
+              Dubai-based Jun's has a prime location and proven pedigree. Expect North American comfort food, combined
+              with Asian flavours, served up in an upmarket, chic setting. Top plates include the tempura and sweet
+              potato chaat, sitting alongside his take on a carrot, labneh and furikake 'bagel', spiced garlic prawns
+              with Korean kimchi serv</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Bushra  !-->
+
+  <div data-role="page" id="bushra">
+    <div data-role="header">
+      <div class="top-wrap uk-position-relative">
+        <div class="nav"
+          data-uk-sticky="cls-active:uk-background-muted uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
+          <div class="uk-container">
+            <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+              <div class="uk-navbar-left">
+                <div class="uk-navbar-item uk-padding-remove-horizontal">
+                  <a class="uk-logo uk-margin-left" title="Logo" href="index.html" rel="external"> <img
+                      src="img/Frame.png" alt="Logo" width="100px" /></a>
+                </div>
+              </div>
+              <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav uk-visible@s">
+                  <li>
+                    <a href="index.html" rel="external"> Home </a>
+                  </li>
+                  <li>
+                    <a href="about.html" rel="external"> About </a>
+                  </li>
+                  <li>
+                    <a href="things.html" rel="external"> Things to do </a>
+                  </li>
+                  <li class="uk-active">
+                    <a href="eat.html" rel="external"> Eat&Drink </a>
+                  </li>
+                  <li>
+                    <a href="sleep.html" rel="external"> Where to sleep </a>
+                  </li>
+                  <li>
+                    <a href="currency.html" rel="external"> Currency </a>
+                  </li>
+                  <li>
+                    <a href="map.html" rel="external"> Map </a>
+                  </li>
+                  <li>
+                    <a href="weather.html" rel="external"> Weather </a>
+                  </li>
+                  <li><a href="contact.html" rel="external">Contact</a></li>
+                </ul>
+                <a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon
+                  href="#offcanvas-nav"></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div data-role="main">
+      <h1 class="uk-text-center uk-padding-large"> Bushra by Buddha-Bar </h1>
+      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+          <img src="img/bush.jpg" alt="" uk-cover>
+          <canvas width="600" height="400"></canvas>
+        </div>
+        <div>
+          <div class="uk-card-body">
+            <p><span uk-icon="location"></span> <a
+                href="https://www.google.com/maps/place/Bushra+by+Buddha-Bar/@25.085372,55.1443164,17z/data=!3m1!4b1!4m5!3m4!1s0x3e5f6b47cda59a9f:0x4ba0728455d708a8!8m2!3d25.085372!4d55.1443164">Grosvenor
+                House, Dubai Marina</a></p>
+            <p>He's known to be one of the most innovative chefs in the region which is why foodies are all a flutter
+              that Greg Malouf is at the helm of Bushra by Buddha-Bar. The eastern-inspired space is the perfect spot to
+              showcase Malouf's modern Levantine dishes, with the yacht-filled Dubai Marina providing an impressive
+              backdrop. Generous plates, ideal for sharing, put the spotlight on regional cuisine. Start with Beiruti
+              hummus before moving onto creative appetisers like the wild mushroom sambousek pastries.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Jamie's  !-->
+
+  <div data-role="page" id="jamies">
+    <div data-role="header">
+      <div class="top-wrap uk-position-relative">
+        <div class="nav"
+          data-uk-sticky="cls-active:uk-background-muted uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
+          <div class="uk-container">
+            <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+              <div class="uk-navbar-left">
+                <div class="uk-navbar-item uk-padding-remove-horizontal">
+                  <a class="uk-logo uk-margin-left" title="Logo" href="index.html" rel="external"> <img
+                      src="img/Frame.png" alt="Logo" width="100px" /></a>
+                </div>
+              </div>
+              <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav uk-visible@s">
+                  <li>
+                    <a href="index.html" rel="external"> Home </a>
+                  </li>
+                  <li>
+                    <a href="about.html" rel="external"> About </a>
+                  </li>
+                  <li>
+                    <a href="things.html" rel="external"> Things to do </a>
+                  </li>
+                  <li class="uk-active">
+                    <a href="eat.html" rel="external"> Eat&Drink </a>
+                  </li>
+                  <li>
+                    <a href="sleep.html" rel="external"> Where to sleep </a>
+                  </li>
+                  <li>
+                    <a href="currency.html" rel="external"> Currency </a>
+                  </li>
+                  <li>
+                    <a href="map.html" rel="external"> Map </a>
+                  </li>
+                  <li>
+                    <a href="weather.html" rel="external"> Weather </a>
+                  </li>
+                  <li><a href="contact.html" rel="external">Contact</a></li>
+                </ul>
+                <a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon
+                  href="#offcanvas-nav"></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div data-role="main">
+      <h1 class="uk-text-center uk-padding-large"> Jamie's Italian </h1>
+      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+          <img src="img/jamiess.jpg" alt="" uk-cover>
+          <canvas width="600" height="400"></canvas>
+        </div>
+        <div>
+          <div class="uk-card-body">
+            <p><span uk-icon="location"></span> <a
+                href="https://www.google.com/maps/place/Jamie's+Italian,+The+Dubai+Mall/@25.1958635,55.2779567,17z/data=!3m1!4b1!4m5!3m4!1s0x3e5f43c5d026060f:0x2d5505654535a480!8m2!3d25.1958635!4d55.2779567">The
+                Dubai Mall</a></p>
+            <p>He's instantly recognisable the world over and now television star Jamie Oliver is bringing his popular
+              Italian dishes to The Dubai Mall. A focus on quality ingredients ensures the simplest of plates is
+              delicious. Inspired by the cooking he learnt under his mentor Gennaro Coltado, as well as via his travels
+              through the country, he stays true to tried-and-tested recipes across the menu. Think perfectly-prepared
+              pizzas from a wood-fired oven, freshly-made pasta with generous toppings, and so much more to savour in a
+              casual, family-friendly atmosphere.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Playa Beach Club  !-->
+
+  <div data-role="page" id="playa">
+    <div data-role="header">
+      <div class="top-wrap uk-position-relative">
+        <div class="nav"
+          data-uk-sticky="cls-active:uk-background-muted uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
+          <div class="uk-container">
+            <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+              <div class="uk-navbar-left">
+                <div class="uk-navbar-item uk-padding-remove-horizontal">
+                  <a class="uk-logo uk-margin-left" title="Logo" href="index.html" rel="external"> <img
+                      src="img/Frame.png" alt="Logo" width="100px" /></a>
+                </div>
+              </div>
+              <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav uk-visible@s">
+                  <li>
+                    <a href="index.html" rel="external"> Home </a>
+                  </li>
+                  <li>
+                    <a href="about.html" rel="external"> About </a>
+                  </li>
+                  <li>
+                    <a href="things.html" rel="external"> Things to do </a>
+                  </li>
+                  <li class="uk-active">
+                    <a href="eat.html" rel="external"> Eat&Drink </a>
+                  </li>
+                  <li>
+                    <a href="sleep.html" rel="external"> Where to sleep </a>
+                  </li>
+                  <li>
+                    <a href="currency.html" rel="external"> Currency </a>
+                  </li>
+                  <li>
+                    <a href="map.html" rel="external"> Map </a>
+                  </li>
+                  <li>
+                    <a href="weather.html" rel="external"> Weather </a>
+                  </li>
+                  <li><a href="contact.html" rel="external">Contact</a></li>
+                </ul>
+                <a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon
+                  href="#offcanvas-nav"></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div data-role="main">
+      <h1 class="uk-text-center uk-padding-large"> Playa Beach Club </h1>
+      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+          <img src="img/playa.jpg" alt="" uk-cover>
+          <canvas width="600" height="400"></canvas>
+        </div>
+        <div>
+          <div class="uk-card-body">
+            <p><span uk-icon="location"></span> <a
+                href="https://www.google.com/maps/place/PLAYA/@25.1098531,55.1385358,17z/data=!3m1!4b1!4m5!3m4!1s0x3e5f6bcfef29a013:0xa21cb1ec15d8c66b!8m2!3d25.1098531!4d55.1385358">Palm
+                West Beach, Palm Jumeirah - Dubai</a></p>
+            <p>It has all the elements that draw a chic crowd: a prime perch on the pristine Palm Beach West complete
+              with an infinity pool, views of the Dubai Marina skyline and bold boho-chic interiors. And it's all
+              complemented by a creative menu featuring Japanese and Peruvian favourites. Chef Carlo Valentino has put
+              together two separate menus, one catering to those soaking in the sunshine outside with easy-to-eat
+              plates, as well as a more fine dining offering for foodies seated indoors by the open kitchen or at one of
+              the cosy booths.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mayabay Dubai  !-->
+
+  <div data-role="page" id="mayabay">
+    <div data-role="header">
+      <div class="top-wrap uk-position-relative">
+        <div class="nav"
+          data-uk-sticky="cls-active:uk-background-muted uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
+          <div class="uk-container">
+            <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+              <div class="uk-navbar-left">
+                <div class="uk-navbar-item uk-padding-remove-horizontal">
+                  <a class="uk-logo uk-margin-left" title="Logo" href="index.html" rel="external"> <img
+                      src="img/Frame.png" alt="Logo" width="100px" /></a>
+                </div>
+              </div>
+              <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav uk-visible@s">
+                  <li>
+                    <a href="index.html" rel="external"> Home </a>
+                  </li>
+                  <li>
+                    <a href="about.html" rel="external"> About </a>
+                  </li>
+                  <li>
+                    <a href="things.html" rel="external"> Things to do </a>
+                  </li>
+                  <li class="uk-active">
+                    <a href="eat.html" rel="external"> Eat&Drink </a>
+                  </li>
+                  <li>
+                    <a href="sleep.html" rel="external"> Where to sleep </a>
+                  </li>
+                  <li>
+                    <a href="currency.html" rel="external"> Currency </a>
+                  </li>
+                  <li>
+                    <a href="map.html" rel="external"> Map </a>
+                  </li>
+                  <li>
+                    <a href="weather.html" rel="external"> Weather </a>
+                  </li>
+                  <li><a href="contact.html" rel="external">Contact</a></li>
+                </ul>
+                <a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon
+                  href="#offcanvas-nav"></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div data-role="main">
+      <h1 class="uk-text-center uk-padding-large"> Mayabay Dubai </h1>
+      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+          <img src="img/mayn.jpg" alt="" uk-cover>
+          <canvas width="600" height="400"></canvas>
+        </div>
+        <div>
+          <div class="uk-card-body">
+            <p><span uk-icon="location"></span> <a
+                href="https://www.google.com/maps/place/MayaBay+Dubai/@25.1367866,55.186363,17z/data=!3m1!4b1!4m5!3m4!1s0x3e5f6ba42aa55b65:0x4be23d98c4d79b3!8m2!3d25.1367866!4d55.186363">Turtle
+                Bay, Jumeirah Al Naseem</a></p>
+            <p>It is one of the most popular venues in Monte Carlo, serving up Asian cuisine in a chic setting, and now
+              Mayabay has opened its first overseas outpost at Jumeirah Al Naseem hotel. Feast on Thai curries, Chinese
+              dim sum, Japanese sushi and signature dishes like the Maya crispy duck as you admire stunning views of the
+              resort's Turtle Lagoon. If you're looking for a lively spot to celebrate a special occasion, Mayabay
+              delivers on all fronts.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- The pods  !-->
+
+  <div data-role="page" id="pods">
+    <div data-role="header">
+      <div class="top-wrap uk-position-relative">
+        <div class="nav"
+          data-uk-sticky="cls-active:uk-background-muted uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
+          <div class="uk-container">
+            <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+              <div class="uk-navbar-left">
+                <div class="uk-navbar-item uk-padding-remove-horizontal">
+                  <a class="uk-logo uk-margin-left" title="Logo" href="index.html" rel="external"> <img
+                      src="img/Frame.png" alt="Logo" width="100px" /></a>
+                </div>
+              </div>
+              <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav uk-visible@s">
+                  <li>
+                    <a href="index.html" rel="external"> Home </a>
+                  </li>
+                  <li>
+                    <a href="about.html" rel="external"> About </a>
+                  </li>
+                  <li>
+                    <a href="things.html" rel="external"> Things to do </a>
+                  </li>
+                  <li class="uk-active">
+                    <a href="eat.html" rel="external"> Eat&Drink </a>
+                  </li>
+                  <li>
+                    <a href="sleep.html" rel="external"> Where to sleep </a>
+                  </li>
+                  <li>
+                    <a href="currency.html" rel="external"> Currency </a>
+                  </li>
+                  <li>
+                    <a href="map.html" rel="external"> Map </a>
+                  </li>
+                  <li>
+                    <a href="weather.html" rel="external"> Weather </a>
+                  </li>
+                  <li><a href="contact.html" rel="external">Contact</a></li>
+                </ul>
+                <a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon
+                  href="#offcanvas-nav"></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div data-role="main">
+      <h1 class="uk-text-center uk-padding-large"> The Pods</h1>
+      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+          <img src="img/podss.jpg" alt="" uk-cover>
+          <canvas width="600" height="400"></canvas>
+        </div>
+        <div>
+          <div class="uk-card-body">
+            <p><span uk-icon="location"></span>Bluewaters Island, Dubai</p>
+            <p>Looking for a luxurious private dining experience? The Pods at Bluewaters Island is the perfect choice.
+              Individual cocoons not only ensure you are only in chosen company, but protects you from the elements as
+              you sit 'outdoors' all year round. Pan Asian cuisine is on the menu – think comforting Malaysian beef
+              rendang, Burmese khow suey noodle soup and a superb truffle lobster. There's a wide variety of plates to
+              suit every palate.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OFFCANVAS -->
+  <div id="offcanvas-nav" data-uk-offcanvas="flip: true; overlay: false">
+    <div class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide">
+      <button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close></button>
+      <ul class="uk-nav uk-nav-default">
+        <li>
+          <a href="index.html" rel="external"> <span uk-icon="home"></span> Home </a>
+        </li>
+        <li>
+          <a href="about.html" rel="external"> <span uk-icon="info"></span> About </a>
+        </li>
+        <li>
+          <a href="things.html" rel="external"><span uk-icon="users"></span> Things to do </a>
+        </li>
+        <li class="uk-active">
+          <a href="eat.html" rel="external"> <span uk-icon="heart"></span> Eat&Drink </a>
+        </li>
+        <li>
+          <a href="sleep.html" rel="external"> <span uk-icon="bookmark"></span> Where to sleep </a>
+        </li>
+        <li>
+          <a href="currency.html" rel="external"> <span uk-icon="credit-card"></span> Currency </a>
+        </li>
+        <li>
+          <a href="map.html" rel="external"> <span uk-icon="location"></span> Map </a>
+        </li>
+        <li>
+          <a href="weather.html" rel="external"> <span uk-icon="bolt"></span> Weather </a>
+        </li>
+        <li>
+          <a href="contact.html" rel="external"> <span uk-icon="mail"></span> Contact</a>
+        </li>
+    </div>
+  </div>
+  <!-- /OFFCANVAS -->
+</body>
+
+</html>
